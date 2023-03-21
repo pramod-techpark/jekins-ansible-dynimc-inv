@@ -7,7 +7,7 @@ resource "aws_instance" "AWSInstance"{
 	instance_type = "t2.micro"
 	key_name = "pemfilemumbai"
 	security_groups = ["launch-wizard-2"]
-	tag = {
+	tags = {
 	Name = "tomcatservers"
 	}
 }
